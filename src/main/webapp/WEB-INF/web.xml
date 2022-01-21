@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+	xmlns="https://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="https://xmlns.jcp.org/xml/ns/javaee
+                        https://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+
+	<display-name>SimpleWebApp</display-name>
+  <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>ListServlet</servlet-name>
+        <servlet-class>ListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListServlet</servlet-name>
+        <url-pattern>/index.html</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>DeleteSpec</servlet-name>
+        <servlet-class>specialization.DeleteSpec</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteSpec</servlet-name>
+        <url-pattern>/deleteSpec.html</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>EditSpec</servlet-name>
+        <servlet-class>specialization.EditSpec</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditSpec</servlet-name>
+        <url-pattern>/editSpec.html</url-pattern>
+    </servlet-mapping>
+       <servlet>
+        <servlet-name>SaveSpec</servlet-name>
+        <servlet-class>specialization.SaveSpec</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveSpec</servlet-name>
+        <url-pattern>/saveSpec.html</url-pattern>
+    </servlet-mapping>
+    
+        <servlet>
+        <servlet-name>SortSpec</servlet-name>
+        <servlet-class>specialization.SortSpec</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SortSpec</servlet-name>
+        <url-pattern>/sortSpec.html</url-pattern>
+    </servlet-mapping>
+    
+         <servlet>
+        <servlet-name>SortDoc</servlet-name>
+        <servlet-class>doctor.SortDoc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SortDoc</servlet-name>
+        <url-pattern>/sortDoc.html</url-pattern>
+    </servlet-mapping>
+    
+        <servlet>
+        <servlet-name>ListDoc</servlet-name>
+        <servlet-class>doctor.ListDoc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListDoc</servlet-name>
+        <url-pattern>/indexDoc.html</url-pattern>
+    </servlet-mapping>
+    
+    
+      <servlet>
+        <servlet-name>DeleteDoc</servlet-name>
+        <servlet-class>doctor.DeleteDoc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteDoc</servlet-name>
+        <url-pattern>/deleteDoc.html</url-pattern>
+    </servlet-mapping>
+    
+    
+       <servlet>
+        <servlet-name>EditDoc</servlet-name>
+        <servlet-class>doctor.EditDoc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditDoc</servlet-name>
+        <url-pattern>/editDoc.html</url-pattern>
+    </servlet-mapping>
+       <servlet>
+        <servlet-name>SaveDoc</servlet-name>
+        <servlet-class>doctor.SaveDoc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveDoc</servlet-name>
+        <url-pattern>/saveDoc.html</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login.html</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logout.html</url-pattern>
+    </servlet-mapping>
+    
+       <servlet>
+        <servlet-name>DeleteServletUser</servlet-name>
+        <servlet-class>user.DeleteServletUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteServletUser</servlet-name>
+        <url-pattern>/deleteUser.html</url-pattern>
+    </servlet-mapping>
+    
+        <servlet>
+        <servlet-name>SaveServletUser</servlet-name>
+        <servlet-class>user.SaveServletUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveServletUser</servlet-name>
+        <url-pattern>/saveUser.html</url-pattern>
+    </servlet-mapping>
+    
+        <servlet>
+        <servlet-name>EditServletUser</servlet-name>
+        <servlet-class>user.EditServletUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditServletUser</servlet-name>
+        <url-pattern>/editUser.html</url-pattern>
+    </servlet-mapping>
+    
+    
+ 
+  
+    
+</web-app>
